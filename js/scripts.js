@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $("button#submit").click(function(){
-    event.preventDefault();
+    
     //Create Constants to be used for branch to return results:
     let dinnerStr = document.getElementById("dinner")
     const dinnerVal = parseInt(dinnerStr.value);
@@ -23,6 +23,7 @@ $(document).ready(function(){
     const userNameInput = $("input#user-name").val();
     $(".user-name").append(userNameInput);
     
+    event.preventDefault();
     
     
     
@@ -30,13 +31,13 @@ $(document).ready(function(){
     
     
     
-  
-  
-  
-  
+    
+    $("button#tryAgain").onclick(function()) {
+      window.location.reload();
+    });
   });
-
-
+  
+  
 
 
 
