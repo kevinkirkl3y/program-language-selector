@@ -1,7 +1,6 @@
 $(document).ready(function(){
-  $("button#submit").click(function(){
+  $("#submit").click(function(){
     
-    //Create Constants to be used for branch to return results:
     let dinnerStr = document.getElementById("dinner")
     const dinnerVal = parseInt(dinnerStr.value);
 
@@ -19,7 +18,6 @@ $(document).ready(function(){
 
     let result = dinnerVal + coffeeVal + musicVal + biglebowskiVal + bestVal;
 
-    // Taking name for in order to place in responses:
     const userNameInput = $("input#user-name").val();
     $(".user-name").append(userNameInput);
     
@@ -30,22 +28,10 @@ $(document).ready(function(){
     } else {
       $("#python").show()
     }
-    
-    console.log(result);
+  
     event.preventDefault();
-    
-    
-    
-    
-    
-    
-    
-   
-  
+    $("#tryAgain").click(function(){
+      location.reload(true);
+    });
   });
-  
-  
-
-
-
 });

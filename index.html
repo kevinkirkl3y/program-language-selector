@@ -47,12 +47,12 @@
     </form>
   </div>
   <div class="container" id="submit">
-    <button class="btn btn-info" id="submit">Find your language!</button>
+    <button class="btn btn-info btn-block" id="submit">Find your language!</button>
   </div>
   <div class="language-results">
     <div id="ruby">
       <div class="card">
-        <div class="card-body">
+        <div class="card-body" id="ruby-card">
           <div class="card-title"><img src="images/ruby.png" alt="Ruby logo" id="ruby-img">
             <div class="card-text"><p class="result-text"><span class="user-name"></span>, you should learn Ruby! Ruby is an object oriented programming language developed to carry a careful balance. Blended from creator, Yukihiro "Matz" Matsumoto's favorite languages (Perl, Smalltalk, Eiffel, Ada and List) Ruby formed a new language that balanced functional programing with imperative programming.</p>
               <blockquote class="blockquote">
@@ -67,7 +67,7 @@
     </div>
     <div id="csharp">
       <div class="card">
-        <div class="card-body">
+        <div class="card-body" id="csharp-card">
           <div class="card-title"><img src="images/csharp.png" alt="C# logo" id="csharp-img">
             <div class="card-text"><p class="result-text"><span class="user-name"></span>, you should learn C#(C-Sharp)! C# is an object oriented programming language intended to be  general purpose, simple and modern. It provides strong type checking, array bounds checking, detects uninitialized variables and uses automatic garbage collection. It focuses on maintaining portability and provides support for internationalization. Applications created using C# are intended to be economical with regard to processing power and memory requirements. </p>
               <blockquote class="blockquote">
@@ -78,10 +78,26 @@
           </div>
         </div>
       </div>
+    </div>  
+    <div id="python">
+      <div class="card">
+        <div class="card-body" id="python-card">
+          <div class="card-title"><img src="images/python.jpg" alt="Python logo" id="python-img">
+            <div class="card-text"><p class="result-text"><span class="user-name"></span>, you should learn Python! Python can be easy to pick up either as a first time programmer or after gaining experience with other languages. It is an interpreted object oriented, high-level programming language with dynamnic semantics. Featuring dynamic typing and binding it has become attractive for rapid application development as well as for stitching existing components together. It is open source and available to be freely distributed.</p>
+              <blockquote class="blockquote">
+                <p>"Python is an experiment in how much freedom programmers need. Too much freedom and nobody can read another's code; too little and expressiveness is endangered."</p>
+                <footer class="blockquote-footer">Guido Van Rossum (Python Creator)</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <div class="refresh">
-    <button type="btn btn-info" id="tryAgain">Try Again!</button>
+    <div>
+      <button type="button" class="btn btn-secondary btn-block" id="tryAgain">Try Again!</button>
+    </div>
   </div>
   
 

@@ -1,24 +1,48 @@
+body{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,210,233,1) 100%);
+  font-family: 'Times New Roman', Times, serif;
+}
+.jumbotron {
+  background: rgb(240, 138, 182);
+  background: radial-gradient(circle, rgb(240, 140, 183) 0%, rgb(112, 202, 235) 100%);
+  font-family: Andale Mono, monospace;
+}
+label {
+  font-weight: bold;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+}
+#survey {
+  display: block;
+  margin: 12px;
+  border: 2px #33006F;
+  padding: 4px;
+  background-color: transparent;
+
+}
 .stud-worries {
   list-style: none;
 }
-#ruby-img {
+#ruby-img, #csharp-img, #python-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: auto;
+  height: 275px;
 }
-#csharp-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-#ruby {
+#ruby, #csharp, #python {
   display: none;
 }
-#csharp {
-  display: none;
+#ruby-card {
+  background: rgb(241,64,103);
+  background: linear-gradient(148deg, rgba(241,64,103,0.5295138888888888) 0%, rgba(233,148,185,0.61059496996997) 100%);
 }
-#python {
-  display: none;
+#csharp-card {
+  background: rgb(159,73,214);
+  background: linear-gradient(148deg, rgba(159,73,214,0.538522897897898) 0%, rgba(212,185,236,0.41539977477477474) 100%);
+}
+#python-card {
+  background: rgb(29,93,223);
+  background: linear-gradient(148deg, rgba(29,93,223,0.5505349099099099) 0%, rgba(199,208,242,0.41539977477477474) 100%);
 }
