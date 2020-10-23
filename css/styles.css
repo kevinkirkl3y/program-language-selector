@@ -7,6 +7,7 @@ body{
   background: rgb(240, 138, 182);
   background: radial-gradient(circle, rgb(240, 140, 183) 0%, rgb(112, 202, 235) 100%);
   font-family: Andale Mono, monospace;
+  font-weight: bold;
 }
 label {
   font-weight: bold;
@@ -23,6 +24,12 @@ label {
 }
 .stud-worries {
   list-style: none;
+}
+.refresh {
+  display: none;
+}
+.card-text {
+  font-family: 'Times New Roman', Times, serif;
 }
 #ruby-img, #csharp-img, #python-img {
   display: block;

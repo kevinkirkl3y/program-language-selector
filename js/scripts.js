@@ -20,13 +20,17 @@ $(document).ready(function(){
 
     const userNameInput = $("input#user-name").val();
     $(".user-name").append(userNameInput);
-    
+  
+    $(".name-form").fadeOut();
+    $("#submit").fadeOut();
+    $(".refresh").fadeIn();
+
     if (result < 17){
-      $("#ruby").show()
+      $("#ruby").fadeIn()
     } else if (result >= 17 && result < 35) {
-      $("#csharp").show()
+      $("#csharp").fadeIn()
     } else {
-      $("#python").show()
+      $("#python").fadeIn()
     }
   
     event.preventDefault();

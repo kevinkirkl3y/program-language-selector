@@ -28,7 +28,9 @@ View my live website here:
 
 ## Known Bugs
 
-* _If user clicks the 'Submit' button without first clicking the 'Try Again!' button, the page will not refresh and subsequent additions to the 'Your Name:' form will add onto the results. Only known workaround is to use the 'Try Again!" button after every entry._
+* _If user clicks the 'Submit' button without first clicking the 'Try Again!' button, the page will not refresh and subsequent additions to the 'Your Name:' form will add onto the results. Only known workaround is to hide the form and button after click._
+
+* _If user doesn't enter a name into the prompt the result will come back with a blank space before the " , you should...". Will attempt a work around using branch to input generic replacement if empty._
 
 ## Support and contact detail
 
