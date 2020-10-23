@@ -50,11 +50,3 @@ _Contact Kevin Kirkley at [kevinmkirkley@gmail.com](mailto:kevinmkirkley@gmail.c
 
 Copyright (c) 2020 **_Kevin Kirkley_**
 This software is licensed under the MIT license.
-
-
-
-
-
-
-
-
