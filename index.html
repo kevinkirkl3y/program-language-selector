@@ -16,7 +16,7 @@
       <li class="stud-worries">"Will this language even be in demand?"</li>
     </ul>
   <h4>With this handy quiz, we will be able to point you in the right direction!</h4>
-  <div class="container">
+  <div class="container" id="survey">
     <h5 class="questions">1. How likely are you to cook dinner this evening?</h5>
     <div class="question1">
       <input type="range" min="1" max="10" value="1" class="slider" id="dinner">
@@ -37,10 +37,35 @@
     <div class="question1">
       <input type="range" min="1" max="10" value="1" class="slider" id="best">
     </div>
-
   </div>
-  <div class="container">
+  <div class="name-form">
+    <form id="formOne">
+      <div class="formGroup">
+        <label for="user-name">Your name:</label>
+        <input id="user-name" class="form-control" type="text">
+      </div>
+    </form>
+  </div>
+  <div class="container" id="submit">
     <button class="btn btn-info" id="submit">Find your language!</button>
+  </div>
+  <div class="language-results">
+    <div class="ruby">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title"><img src="images/ruby.png" alt="Ruby logo" id="ruby-img">
+            <div class="card-text"><p class="result-text"><span class="user-name"></span>, you should learn Ruby! Ruby is an object orient programming language developed to carry a careful balance. Blended from creator, Yukihiro "Matz" Matsumoto's favorite languages (Perl, Smalltalk, Eiffel, Ada and List) Ruby formed a new language that balanced functional programing with imperative programming.</p>
+              <blockquote class="blockquote">
+                <p>"...trying to make Ruby natural, not simple..."</p>
+                <footer class="blockquote-footer">Yukihiro "Matz" Matsumoto</footer>
+              </blockquote>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </div>
 
   

@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $("button#submit").click(function(){
-    
-    
+    event.preventDefault();
+    //Create Constants to be used for branch to return results:
     let dinnerStr = document.getElementById("dinner")
     const dinnerVal = parseInt(dinnerStr.value);
 
@@ -19,18 +19,21 @@ $(document).ready(function(){
 
     const result =dinnerVal + coffeeVal + musicVal + biglebowskiVal + bestVal;
 
+    // Taking name for in order to place in responses:
+    const userNameInput = $("input#user-name").val();
+    $(".user-name").append(userNameInput);
     
     
     
     
     
-    console.log(result);
+    
     
     
   
   
   
-  event.preventDefault();
+  
   });
 
 
