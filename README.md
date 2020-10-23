@@ -20,7 +20,7 @@ Open by downloading:
 
 Open with Bash/GitBash:
 1. Clone this repository onto your computer:
-'git clone https://github.com/kevinkirkl3y/program-language-selector.git'
+    git clone https://github.com/kevinkirkl3y/program-language-selector.git
 2. Navigate into the 'program-language-selector' directory and open in VSCode or preferred text editor
 'code .'
 3. Open index.html in Google Chrome or your preferred browser. 
