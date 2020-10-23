@@ -17,12 +17,21 @@ $(document).ready(function(){
     let bestStr = document.getElementById("best")
     const bestVal = parseInt(bestStr.value);
 
-    const result =dinnerVal + coffeeVal + musicVal + biglebowskiVal + bestVal;
+    let result = dinnerVal + coffeeVal + musicVal + biglebowskiVal + bestVal;
 
     // Taking name for in order to place in responses:
     const userNameInput = $("input#user-name").val();
     $(".user-name").append(userNameInput);
     
+    if (result < 17){
+      $("#ruby").show()
+    } else if (result >= 17 && result < 35) {
+      $("#csharp").show()
+    } else {
+      $("#python").show()
+    }
+    
+    console.log(result);
     event.preventDefault();
     
     
@@ -31,10 +40,8 @@ $(document).ready(function(){
     
     
     
-    
-    $("button#tryAgain").onclick(function()) {
-      window.location.reload();
-    });
+   
+  
   });
   
   
