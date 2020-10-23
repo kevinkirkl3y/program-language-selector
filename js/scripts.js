@@ -2,18 +2,19 @@ $(document).ready(function(){
   $("button#submit").click(function(){
     
     
-    let dindinStr = document.getElementById("din-din")
-    let dindin = document.getElementById("din-value")
-    
-    dindin.innerHTML = dindinStr.value;
-    dindinStr.oninput = function() {
+    let dindinStr = document.getElementById("dinner")
+    const dindinVal = parseInt(dindinStr.value);
+
 
     
-      let dindinVal = parseInt("#din-value")
     
     console.log(dindinVal);
     
-    }
+    const result =dindinVal +
+    
+    
+    
+    
   
   
   
